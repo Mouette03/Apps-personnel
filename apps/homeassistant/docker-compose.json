@@ -2,13 +2,13 @@
   "services": [
     {
       "name": "homeassistant",
-      "image": "ghcr.io/home-assistant/home-assistant:stable",
+      "image": "ghcr.io/home-assistant/home-assistant:2025.7.4",
       "isMain": true,
       "internalPort": 8123,
       "addPorts": [
         {
           "containerPort": 8123,
-          "hostPort": 8123,
+          "hostPort": "${config.app_port}",
           "tcp": true
         }
       ],
