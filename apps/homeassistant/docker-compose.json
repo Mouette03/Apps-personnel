@@ -15,7 +15,7 @@
       "volumes": [
         {
           "hostPath": "${APP_DATA_DIR}/data/homeassistant",
-          "containerPath": "config",
+          "containerPath": "/config",
           "readOnly": false
         }
       ],
@@ -24,7 +24,7 @@
       },
       "networkMode": "host",
       "healthCheck": {
-        "test": "curl --fail http://localhost:8123/api/health || exit 1",
+        "test": "curl --fail http://localhost:8123 || exit 1",
         "retries": 3,
         "interval": "30s",
         "timeout": "10s"
