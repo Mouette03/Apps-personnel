@@ -1,26 +1,25 @@
 {
-  "name": "Home Assistant",
   "id": "homeassistant",
+  "name": "Home Assistant",
   "available": true,
-  "short_desc": "Open source home automation.",
-  "author": "home-assistant",
-  "port": 8469,
+  "short_desc": "Plateforme domotique open\u2011source auto\u2011h\u00e9berg\u00e9e",
+  "description": "Home Assistant vous permet de piloter tous vos objets connect\u00e9s, de cr\u00e9er des automatisations et d'exploiter vos donn\u00e9es en local.",
+  "version": "2025.8.0",
+  "tipi_version": 1,
   "categories": [
+    "home",
     "automation"
   ],
-  "description": "Home Assistant is an open-source home automation platform that lets you control, automate, and monitor all your smart devices from a single interface — locally and without relying on the cloud.",
-  "tipi_version": 1,
-  "version": "2025.7.4",
-  "source": "https://github.com/home-assistant/core",
-  "website": "https://www.home-assistant.io",
-  "dynamic_config": true,
+  "author": "homeassistant",
+  "port": 8123,
   "exposable": true,
-  "form_fields": [],
+  "force_expose": false,
+  "dynamic_config": true,
   "supported_architectures": [
     "arm64",
     "amd64"
   ],
-  "created_at": 1752620152000,
-  "updated_at": 1754145439430
-  
+  "source": "https://github.com/home-assistant/core",
+  "website": "https://www.home-assistant.io",
+  "form_fields": []
 }

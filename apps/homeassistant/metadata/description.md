@@ -1,13 +1,14 @@
 # Home Assistant
 
-Open source home automation that puts local control and privacy first.
+Home Assistant est une plateforme domotique open-source qui vous permet de centraliser, automatiser et visualiser l'ensemble de vos objets connectés localement, sans dépendre du cloud.
 
-Powered by a worldwide community of tinkerers and DIY enthusiasts. Perfect to run on a Raspberry Pi or a local server.
+## Fonctionnalités
 
-## Links
+- Détection automatique des appareils
+- Création d'automatisations puissantes
+- Interface web personnalisable
+- Intégrations avec plus de 2000 services
 
-<https://www.home-assistant.io>
+## Site officiel
 
-<https://github.com/home-assistant/core>
-
-<https://ghcr.io/home-assistant/home-assistant>
+👉 [home-assistant.io](https://www.home-assistant.io)

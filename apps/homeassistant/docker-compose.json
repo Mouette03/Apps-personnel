@@ -2,22 +2,17 @@
   "services": [
     {
       "name": "homeassistant",
-      "image": "ghcr.io/home-assistant/home-assistant:2025.7.4",
-      "internalPort": 8123,
+      "image": "ghcr.io/home-assistant/home-assistant:stable",
       "isMain": true,
+      "internalPort": 8123,
       "volumes": [
         {
-          "hostPath": "/etc/localtime",
-          "containerPath": "/etc/localtime",
-          "readOnly": true
-        },
-        {
-          "hostPath": "${APP_DATA_DIR}/data/config",
-          "containerPath": "/config"
+          "source": "./data",
+          "target": "/config"
         }
       ],
-      "environment": {
-        "TZ": "${TZ}"
+      "env": {
+        "TZ": "Europe/Paris"
       }
     }
   ]
