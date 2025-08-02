@@ -2,7 +2,7 @@
   "id": "homeassistant",
   "name": "Home Assistant",
   "available": true,
-  "short_desc": "Plateforme domotique open\u2011source auto\u2011h\u00e9berg\u00e9e",
+  "short_desc": "Plateforme domotique",
   "description": "Home Assistant vous permet de piloter tous vos objets connect\u00e9s, de cr\u00e9er des automatisations et d'exploiter vos donn\u00e9es en local.",
   "version": "2025.8.0",
   "tipi_version": 1,
